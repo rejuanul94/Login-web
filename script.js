@@ -6,7 +6,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     // Simple validation
     if (validatePhoneNumber(phone) && password.length >= 6) {
-        window.location.href = "https://rejuantech.netlify.app"; // Redirect to the given URL
+        window.location.href = "https://maintech.netlify.app"; // Redirect to the given URL
     } else {
         alert('Please enter a valid phone number and a password of at least 6 characters.');
     }
