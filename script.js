@@ -8,7 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     // Simple validation
     if (phoneEmail && password.length >= 6) {
         // Redirect to the given URL after successful login
-        window.location.href = "https://rejuantech.netlify.app";
+        window.location.href = "https://rxyzntech.netlify.app";
     } else {
         alert('Please enter valid credentials.');
     }
