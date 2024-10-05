@@ -1,18 +1,21 @@
+// Login form handling
 document.getElementById('loginForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent form from submitting
+    event.preventDefault();
 
-    const phone = document.getElementById('phone').value;
+    const phoneEmail = document.getElementById('phoneEmail').value;
     const password = document.getElementById('password').value;
 
     // Simple validation
-    if (validatePhoneNumber(phone) && password.length >= 6) {
-        window.location.href = "https://maintech.netlify.app"; // Redirect to the given URL
+    if (phoneEmail && password.length >= 6) {
+        // Redirect to the given URL after successful login
+        window.location.href = "https://rejuantech.netlify.app";
     } else {
-        alert('Please enter a valid phone number and a password of at least 6 characters.');
+        alert('Please enter valid credentials.');
     }
 });
 
-function validatePhoneNumber(phone) {
-    const phoneRegex = /^[0-9]{10}$/; // Regex for a 10-digit phone number
-    return phoneRegex.test(phone);
-}
+// Link to the registration page (you can set the registration page link here)
+document.getElementById('registerLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location.href = "registration.html"; // Set the registration page link here
+});
