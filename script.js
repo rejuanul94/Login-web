@@ -17,5 +17,5 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 // Link to the registration page (you can set the registration page link here)
 document.getElementById('registerLink').addEventListener('click', function(event) {
     event.preventDefault();
-    window.location.href = "registration.html"; // Set the registration page link here
+    window.location.href = "https://registerweb.netlify.app"; // Set the registration page link here
 });
