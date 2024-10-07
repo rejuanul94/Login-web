@@ -10,7 +10,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-image: url('https://wallpapers.com/wallpapers/android-11-sakura-background-eo7yr0gegup49r1f.html');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
 
 .login-container, .register-container {
