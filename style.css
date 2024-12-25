@@ -5,18 +5,6 @@
     font-family: Arial, sans-serif;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('https://wallpapers.com/wallpapers/android-11-sakura-background-eo7yr0gegup49r1f.html');
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
 
 body {
     height: 100vh;
@@ -44,6 +32,7 @@ body {
     align-items: center;
     margin-bottom: 2rem;
     margin-top:0rem;
+    
 }
 
 .login-container {
